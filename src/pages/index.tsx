@@ -2,12 +2,13 @@ import { FC } from 'react'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import faker from 'faker'
+import { ICard } from '@components/homepage/card'
 import MainContainer from '@components/mainContainer'
 import Header from '@components/header'
 import PageContainer from '@components/pageContainer'
 import Slider from '@components/homepage/slider'
 import Section from '@components/homepage/section'
-import { ICard } from '@components/homepage/card'
+import Footer from '@components/footer'
 import Conjunto from '@assets/images/Conjunto.png'
 
 interface IProps {
@@ -36,6 +37,7 @@ const Home: FC<IProps> = props => {
         <Section sectionTitle={'Roupas'} cards={cards} />
         <Section sectionTitle={'Enxoval'} cards={cards} />
       </PageContainer>
+      <Footer />
     </MainContainer>
   )
 }

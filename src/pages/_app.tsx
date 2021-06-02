@@ -8,8 +8,8 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
         <GlobalStyle />
+        <Component {...pageProps} />
       </ThemeProvider>
     </>
   )
