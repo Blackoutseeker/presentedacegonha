@@ -42,6 +42,18 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="author" content="Felipe Pereira de Souza Silva" />
+          <meta
+            property="og:image"
+            content="https://raw.githubusercontent.com/Blackoutseeker/presentedacegonha/main/src/assets/images/Logo.jpg"
+          />
+          <meta
+            property="og:image:secure_url"
+            content="https://raw.githubusercontent.com/Blackoutseeker/presentedacegonha/main/src/assets/images/Logo.jpg"
+          />
+          <meta property="og:image:type" content="image/jpeg" />
+          <meta property="og:image:width" content="78" />
+          <meta property="og:image:height" content="76" />
+          <meta property="og:image:alt" content="Presente da Cegonha" />
         </Head>
         <body>
           <Main />
