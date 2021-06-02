@@ -29,6 +29,7 @@ const Home: FC<IProps> = props => {
           name="description"
           content="Confira roupas, enxoval, calçados e brinquedos em nossa homepage!"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
